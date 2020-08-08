@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05FA66F7E6EEBF23D0D5BCDAB862BDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0A49CB4924DEA3D6008BD762 /* UrlConnectionPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49CB4824DEA3D6008BD762 /* UrlConnectionPod.swift */; };
-		0A49CB4B24DEA3E6008BD762 /* CompletitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49CB4A24DEA3E6008BD762 /* CompletitionDelegate.swift */; };
+		0A49CB4E24DEA4D9008BD762 /* CompletitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49CB4C24DEA4D8008BD762 /* CompletitionDelegate.swift */; };
+		0A49CB4F24DEA4D9008BD762 /* UrlConnectionPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A49CB4D24DEA4D9008BD762 /* UrlConnectionPod.swift */; };
 		1C7F57D5B39B776135ABA3AE76652537 /* Pods-ApiPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7368BB010C0A789224E40B4264F9B85 /* Pods-ApiPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		680A6CA8724723C2E082FDA334416419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B0DC9898191B57A67D57B755C096316C /* Pods-ApiPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E951DDA64A9E7624C91B544A8E592125 /* Pods-ApiPod_Tests-dummy.m */; };
@@ -40,8 +40,8 @@
 /* Begin PBXFileReference section */
 		0239213719CF5EA88A547F5B75B472AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		02BC0DF6AB9FD2917359513EDD21405C /* Pods-ApiPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApiPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A49CB4824DEA3D6008BD762 /* UrlConnectionPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UrlConnectionPod.swift; path = ../ApiPod/UrlConnectionPod.swift; sourceTree = "<group>"; };
-		0A49CB4A24DEA3E6008BD762 /* CompletitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompletitionDelegate.swift; path = ../ApiPod/CompletitionDelegate.swift; sourceTree = "<group>"; };
+		0A49CB4C24DEA4D8008BD762 /* CompletitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompletitionDelegate.swift; path = ../ApiPod/Classes/CompletitionDelegate.swift; sourceTree = "<group>"; };
+		0A49CB4D24DEA4D9008BD762 /* UrlConnectionPod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UrlConnectionPod.swift; path = ../ApiPod/Classes/UrlConnectionPod.swift; sourceTree = "<group>"; };
 		0B438D4DEA2287F1D2C51F29A25F8EE3 /* ApiPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiPod-dummy.m"; sourceTree = "<group>"; };
 		1F728F24180B80854A137216698D10CB /* ApiPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiPod-prefix.pch"; sourceTree = "<group>"; };
 		1F7F0FF84BECE4C598FFD91EFE311DCD /* Pods-ApiPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApiPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		0A49CB4724DEA357008BD762 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0A49CB4824DEA3D6008BD762 /* UrlConnectionPod.swift */,
-				0A49CB4A24DEA3E6008BD762 /* CompletitionDelegate.swift */,
+				0A49CB4C24DEA4D8008BD762 /* CompletitionDelegate.swift */,
+				0A49CB4D24DEA4D9008BD762 /* UrlConnectionPod.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -401,8 +401,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAA44FB04E187F9B7C469A8176EA34F /* ApiPod-dummy.m in Sources */,
-				0A49CB4B24DEA3E6008BD762 /* CompletitionDelegate.swift in Sources */,
-				0A49CB4924DEA3D6008BD762 /* UrlConnectionPod.swift in Sources */,
+				0A49CB4F24DEA4D9008BD762 /* UrlConnectionPod.swift in Sources */,
+				0A49CB4E24DEA4D9008BD762 /* CompletitionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
