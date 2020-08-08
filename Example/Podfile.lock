@@ -1,0 +1,16 @@
+PODS:
+  - ApiPod (0.1.0)
+
+DEPENDENCIES:
+  - ApiPod (from `../`)
+
+EXTERNAL SOURCES:
+  ApiPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApiPod: 8965b03b9d9ed3f069106e892242ce602d93f94f
+
+PODFILE CHECKSUM: f1b022b839a464d6c2716a5b41d9cb3e1ee102aa
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ApiPod_Example' do
+  pod 'ApiPod', :path => '../'
+
+  target 'ApiPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

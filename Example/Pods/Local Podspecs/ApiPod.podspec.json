@@ -1,0 +1,22 @@
+{
+  "name": "ApiPod",
+  "version": "0.1.0",
+  "summary": "A short description of ApiPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jey21@live.com/ApiPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jey21@live.com": "yespinoza@tecnosys.net"
+  },
+  "source": {
+    "git": "https://github.com/jey21@live.com/ApiPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ApiPod/Classes/**/*"
+}
